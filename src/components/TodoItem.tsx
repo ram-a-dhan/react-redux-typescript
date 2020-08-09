@@ -16,7 +16,8 @@ const TodoItem: React.FC<TodoItemProps> = ({ todo }) => {
 
   const handleDeleteTodo = (event:MouseEvent<HTMLButtonElement | MouseEvent>) => {
     event.preventDefault();
-    dispatch(deleteTodo(todo.id));
+    let deleteThis = window.confirm('Delete this to-do item?');
+    if (deleteThis) dispatch(deleteTodo(todo.id));
   }
 
   return (
