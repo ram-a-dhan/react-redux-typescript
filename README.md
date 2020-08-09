@@ -1,2 +1,2 @@
-# yarn-react-redux-typescript
-Simple To-do App using Yarn, React, Redux, and TypeScript
+# react-redux-typescript
+Simple to-do app using React, Redux, and TypeScript
