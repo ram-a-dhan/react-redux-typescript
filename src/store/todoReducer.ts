@@ -1,5 +1,3 @@
-import { TodoAction } from '../declarations/Action';
-
 const initialState:Todo[] = [
   { id: 1, text: 'wake up' , completed: true },
   { id: 2, text: 'learn typescript' , completed: false },

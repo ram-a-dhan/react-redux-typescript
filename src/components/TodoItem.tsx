@@ -22,9 +22,6 @@ const TodoItem: React.FC<TodoItemProps> = ({ todo }) => {
 
   return (
     <tr className="TodoItem">
-      {/* <td className="text-light align-middle" style={{ fontSize: '1.75rem' }}>
-        [{ todo.completed ? '✔' : '✗' }]
-      </td> */}
       <td
         className={
           "text-left px-2 align-middle w-100 "

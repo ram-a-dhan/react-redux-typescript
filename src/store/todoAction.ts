@@ -1,5 +1,3 @@
-import { TodoAction } from '../declarations/Action';
-
 export const addTodo = (text:string):TodoAction => {
   return {
     type: 'ADD_TODO',

@@ -17,8 +17,8 @@ const TodoInput = () => {
   const dispatch = useDispatch();
 
   const handleTodoInput = (event:ChangeEvent<HTMLInputElement>) => {
-    // const { name, value } = event.target;
     setInput(event.target.value);
+    // const { name, value } = event.target;
     // setInput((prev) => ({
     //   ...prev,
     //   [name]: value,
